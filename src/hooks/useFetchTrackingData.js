@@ -9,15 +9,13 @@ const useFetchTrackingData = () => {
   const [actions, setActions] = useState([]);
   const [dates, setDates] = useState([]);
   const [numOfCompletedActions, setNumOfCompletedActions] = useState(null);
-  // const {
-  //   t,
-  //   i18n: { resolvedLanguage },
-  // } = useTranslation();
+
   const fetchTrackingData = (q) => {
+    console.log(process.env.REACT_APP_TRACKING_URL);
     setData(null);
     setError(null);
     setLoading(true);
-    fetch(`https://smbport.com/tmsweb/track?q=${q}`)
+    fetch(`${process.env.REACT_APP_TRACKING_URL}?q=${q}`)
       .then((res) => res.text())
       .then((data) => {
         const dom = new DOMParser().parseFromString(data, "text/html");
