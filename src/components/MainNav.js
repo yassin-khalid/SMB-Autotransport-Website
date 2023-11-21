@@ -158,9 +158,7 @@ const MainNav = () => {
             enable-background="new 0 0 32 32"
             id="Filled_Line"
             version="1.1"
-            // xml:space="preserve"
             xmlns="http://www.w3.org/2000/svg"
-            // xmlns:xlink="http://www.w3.org/1999/xlink"
             fill="#000000"
             onClick={() => setOpen(true)}
           >

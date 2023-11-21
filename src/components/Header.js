@@ -1,6 +1,5 @@
 import React from "react";
 import MainNav from "./MainNav";
-import Hero from "./Hero";
 import TopHero from "./TopHero";
 
 const Header = () => {
