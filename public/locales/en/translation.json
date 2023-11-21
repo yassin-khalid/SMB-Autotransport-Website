@@ -1,0 +1,83 @@
+{
+  "error": "No valid tracking number",
+  "visionAndMission": "Vision & Mission",
+  "vision": {
+    "header": "Our Vision",
+    "description": "To be the first choice in our field in KSA, The Arabian Gulf and North Africa region."
+  },
+  "mission": {
+    "header": "Our Mission",
+    "description": "Providing transportation and logistics services, in a professional manner that exceeds our customers’ expectations, and building long-term relationships with them."
+  },
+  "topHero": {
+    "header": "A leading company in the field of car transportation in the Middle East",
+    "subheader": "SMB is a saudi company founded in the early 1980's. Over the past 40 years, we have gained the trust of our customers through the success we have achieved.",
+    "label": "Trace is out! You can track your order!",
+    "button": {
+      "new": "New",
+      "more": "Learn more",
+      "track": "Track order"
+    },
+    "feature": "FEATURED IN"
+  },
+  "hero": {
+    "1": "Saeed Mohammed Al Bassami Company is a Saudi limited company headquartered in Jeddah, Kingdom of Saudi Arabia.",
+    "2": "The company began car transport activities in the early 1980s with a small number of trucks to transport cars between cities in the Kingdom.",
+    "3": "We also ship outside the Kingdom of Saudi Arabia to (the United Arab Emirates, Qatar, Kuwait, Bahrain, Jordan)."
+  },
+  "about": {
+    "header": "Reliable Logistic & Transport Solutions Saves Your Time!",
+    "paragraph": {
+      "first": "Believing that leadership in this activity requires that the fleet be ready from the technical and operational aspects; For this purpose, we have established specialized maintenance centers for all types of trucks with the latest technologies to ensure the efficiency and readiness of the fleet.",
+      "last": "In an effort to serve our customers wherever they are, the management has worked hard to expand the branch network until our branches cover most parts of the Kingdom of Saudi Arabia with more than 43 car transport branches in all regions!"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "faq": "FAQs",
+    "contact": "Contact",
+    "trace": "Trace"
+  },
+  "partner": "Our Partners",
+  "value": {
+    "header": "Our Core Values",
+    "values": {
+      "credibility": "Credibility at work",
+      "accuracy": "Accuracy in appoinments",
+      "transparency": "Transparency"
+    },
+    "description": {
+      "credibility": "It is the value that enhances our credibility and position with our customers, and builds a long-term relationship with them.",
+      "accuracy": "We strive for our services to be of high quality, no less than those of other companies, and to ensure the provision of added value.",
+      "transparency": "We work with integrity with our customers and partners and strive to have this value present at all times with our employees and in our environment."
+    }
+  },
+  "track": {
+    "note": "To track multiple shipments please separate tracking codes with a space or comma",
+    "placeholder": "Tracking Code",
+    "button": "track"
+  },
+  "contact": {
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Message...",
+    "button": "send"
+  },
+  "faq": {
+    "header": "Frequently Asked Questions",
+    "questions": {
+      "1": "Which Plan Is Right For Me?",
+      "2": "What are my payment options?",
+      "3": "How do I cancel my Shipment?",
+      "4": "When should I receive my Shipment?"
+    },
+    "answers": {
+      "1": "With any plan that you chose, it is important that you know you are getting the best advice from our sales representatives.",
+      "2": "SMB Express wallet (soon) is recommended if you ship frequently, this provides you with negotiated price savings and the opportunity to prepay. Payment can also be made in cash, credit card, or cash on delivery in the Kingdom of Saudi Arabia",
+      "3": "You must contact the customer service team to cancel the shipment before the Pickup.",
+      "4": "The tracking page provides you with updated information about your shipment."
+    }
+  },
+  "copyright": "©All rights reserved to SMB"
+}
