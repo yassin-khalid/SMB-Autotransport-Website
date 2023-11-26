@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const Vision = () => {
   const { t, i18n } = useTranslation();
   return (
-    <section className="my-28 max-w-6xl mx-auto px-6 md:px-0">
+    <section className="my-20 md:my-44 max-w-6xl mx-auto px-6 md:px-0">
       <h2
         className={`text-primary font-bold text-center  text-3xl md:text-4xl mb-10 ${
           i18n.resolvedLanguage === "ar" ? "font-arabic" : "font-display"

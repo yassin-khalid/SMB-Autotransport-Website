@@ -25,13 +25,13 @@ const Trace = () => {
   return (
     <section
       id="trace"
-      className="max-w-6xl mx-auto py-48 flex flex-col items-center px-4 md:px-0"
+      className="max-w-xl mx-auto py-48 flex flex-col items-center px-4 md:px-0"
     >
       <span className="text-sm text-slate-600 block text-center mb-2">
         {t("track.note")}
       </span>
       <form
-        className="flex w-96 gap-2 mb-10"
+        className="flex w-full gap-2 mb-10"
         onSubmit={(e) => {
           e.preventDefault();
           fetchTrackingData(q);
@@ -62,16 +62,16 @@ const Trace = () => {
         </div>
       )}
       {data && (
-        <div className="flex items-center justify-between container max-w-xl mb-8">
+        <div className="flex items-center justify-between gap-6 container max-w-xl mb-8">
           <div className="flex items-center gap-2">
             <span className="font-semibold text-lg text-primary">From:</span>
-            <span className="text-lg text-darkPrimary font-bold font-arabic">
+            <span className="md:text-lg text-darkPrimary font-bold font-arabic">
               {from}
             </span>
           </div>
           <div className="flex items-center gap-2">
             <span className="font-semibold text-lg text-primary">To:</span>
-            <span className="text-lg text-darkPrimary font-bold font-arabic">
+            <span className="md:text-lg text-darkPrimary font-bold font-arabic">
               {to}
             </span>
           </div>

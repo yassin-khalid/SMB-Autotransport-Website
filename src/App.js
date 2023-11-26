@@ -1,4 +1,3 @@
-import { Suspense } from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import FAQs from "./components/FAQs";
@@ -8,6 +7,8 @@ import Trace from "./components/Trace";
 import Values from "./components/Values";
 import Hero from "./components/Hero";
 import Vision from "./components/Vision";
+import Services from "./components/Services";
+import SAS from "./components/SAS";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <Values />
       <Trace />
       <Contact />
+      <Services />
+      <SAS />
       <FAQs />
       <Footer />
     </div>

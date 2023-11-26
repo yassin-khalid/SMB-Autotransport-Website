@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import firstBg from "../assets/imgs/albassami-bg-0.jpg";
+import secondBg from "../assets/imgs/albassami-bg-1.jpg";
+import thirdBg from "../assets/imgs/albassami-bg-2.jpg";
 
 const Hero = () => {
   const [currImageIndex, setCurrImageIndex] = useState(0);
   const { t, i18n } = useTranslation();
   return (
-    <div className="relative flex overflow-x-hidden max-w-6xl mx-auto my-44">
+    <section className="relative flex overflow-x-hidden max-w-6xl mx-auto my-20 md:my-44">
       <div className="z-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <p
-          className={`text-white font-semibold text-xl md:tracking-widest md:leading-loose ${
+          className={`text-white font-semibold text-lg md:text-xl md:tracking-widest md:leading-loose ${
             i18n.resolvedLanguage === "ar"
               ? "text-right font-arabic"
               : "text-left font-display"
@@ -40,24 +43,24 @@ const Hero = () => {
         className={`brightness-50 min-w-full max-h-[450px] transition duration-200 ${
           currImageIndex === 0 ? "translate-x-0" : "-translate-x-full"
         }`}
-        src="albassami-bg-0.jpg"
+        src={firstBg}
         alt="Albassami Building"
       />
       <img
         className={`brightness-50 min-w-full max-h-[450px] transition duration-200 ${
           currImageIndex === 1 ? "-translate-x-full" : "-translate-x-[200%]"
         }`}
-        src="albassami-bg-1.jpg"
+        src={secondBg}
         alt="Albassami Building"
       />
       <img
         className={`brightness-50 min-w-full max-h-[450px] transition duration-200 ${
           currImageIndex === 2 ? "-translate-x-[200%]" : "-translate-x-[300%]"
         }`}
-        src="albassami-bg-2.jpg"
+        src={thirdBg}
         alt="Albassami Building"
       />
-    </div>
+    </section>
   );
 };
 

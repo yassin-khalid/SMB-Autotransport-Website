@@ -1,11 +1,16 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import alahli from "../assets/imgs/alahli-no-bg.png";
+import alarabi from "../assets/imgs/alarabi-no-bg.png";
+import alrajhi from "../assets/imgs/alrajhi.jpg";
+import autoworld from "../assets/imgs/autoworld-no-bg.png";
+import theeb from "../assets/imgs/theeb-no-bg.png";
 
 const TopHero = () => {
   const { t, i18n } = useTranslation();
   return (
     <section class="bg-white dark:bg-gray-900">
-      <div class="mt-14 py-24 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+      <div class="md:mt-14 py-24 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <a
           href="#trace"
           class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
@@ -116,31 +121,31 @@ const TopHero = () => {
           >
             {t("topHero.feature")}
           </span>
-          <div class="flex gap-8 flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
+          <div class="flex gap-4 md:gap-8 flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
             <img
-              src="alahli-no-bg.png"
+              src={alahli}
               alt="NCB Bank Logo"
-              className="h-11 grayscale mr-5 dark:grayscale-0"
+              className="h-6 sm:h-8 md:h-11 grayscale dark:grayscale-0"
             />
             <img
-              src="alarabi-no-bg.png"
+              src={alarabi}
               alt="Alarabi Bank Logo"
-              className="h-11 grayscale mr-5 dark:grayscale-0"
+              className="h-6 sm:h-8 md:h-11 grayscale dark:grayscale-0"
             />
             <img
-              src="alrajhi.jpg"
+              src={alrajhi}
               alt="Alrajhi Bank Logo"
-              className="h-11 grayscale mr-5 dark:grayscale-0"
+              className="h-6 sm:h-8 md:h-11 grayscale dark:grayscale-0"
             />
             <img
-              src="autoworld-no-bg.png"
+              src={autoworld}
               alt="Autoworld Logo"
-              className="h-11 grayscale mr-5 dark:grayscale-0"
+              className="h-6 sm:h-8 md:h-11 grayscale dark:grayscale-0"
             />
             <img
-              src="theeb-no-bg.png"
+              src={theeb}
               alt="Theeb Logo"
-              className="h-11 grayscale mr-5 dark:grayscale-0"
+              className="h-6 sm:h-8 md:h-11 grayscale dark:grayscale-0"
             />
           </div>
         </div>

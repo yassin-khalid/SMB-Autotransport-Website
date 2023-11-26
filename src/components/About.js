@@ -1,18 +1,15 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import delivery from "../assets/imgs/delivery-0.jpg";
 
 const About = () => {
   const { t, i18n } = useTranslation();
   return (
     <section
       id="about"
-      className="my-32 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8"
+      className="my-20 md:my-44 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8"
     >
-      <img
-        className="flex-1"
-        src="delivery-0.jpg"
-        alt="Albassami Taking A car"
-      />
+      <img className="flex-1" src={delivery} alt="Albassami Taking A car" />
       <div className="flex-1 px-4 md:px-0">
         <h2
           className={`text-primary ${

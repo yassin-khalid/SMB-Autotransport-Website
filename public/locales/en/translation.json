@@ -66,17 +66,76 @@
   },
   "faq": {
     "header": "Frequently Asked Questions",
+    "call": "For more details please call ",
+    "attached": "Attached list",
     "questions": {
-      "1": "Which Plan Is Right For Me?",
-      "2": "What are my payment options?",
-      "3": "How do I cancel my Shipment?",
-      "4": "When should I receive my Shipment?"
+      "1": "What are the branches that ship to and from? / Branch locations / Branch working hours?",
+      "2": "Is there international shipping?",
+      "3": "What type of vehicles can be shipped?",
+      "4": "What documents are required when shipping?",
+      "5": "Is there a procedure before the car is delivered for shipping?",
+      "6": "What is the procedure to change the recipient?"
     },
     "answers": {
-      "1": "With any plan that you chose, it is important that you know you are getting the best advice from our sales representatives.",
-      "2": "SMB Express wallet (soon) is recommended if you ship frequently, this provides you with negotiated price savings and the opportunity to prepay. Payment can also be made in cash, credit card, or cash on delivery in the Kingdom of Saudi Arabia",
-      "3": "You must contact the customer service team to cancel the shipment before the Pickup.",
-      "4": "The tracking page provides you with updated information about your shipment."
+      "1": "A list of the branches’ names, their services, and exact working hours will be added, in addition to the branch locations",
+      "2": "Yes, we have international shipping to the Emirates - Bahrain - Qatar - and Jordan.",
+      "3": "All types of vehicles can be shipped.",
+      "4": "Identity and form, and the shipper or recipient must be the owner of the car.",
+      "5": "Ensure that no private property or valuable items are left inside the car. And hand over the car key to the responsible employee.",
+      "6": "With an official power of attorney directly from the owner to receive the car."
+    }
+  },
+  "services": {
+    "header": "Transportation Services",
+    "1": {
+      "header": "Regular",
+      "description": {
+        "1": "Car shipped by a car carrying trailer",
+        "2": "From 5 to 7 days.",
+        "3": "From 15 to 20 days in peak seasons"
+      }
+    },
+    "2": {
+      "header": "Special",
+      "description": {
+        "1": "Car shipped by a car carrying trailer",
+        "2": "From 3 to 4 days.",
+        "3": "From 5 to 7 days in peak seasons"
+      }
+    },
+    "3": {
+      "header": "Special Flat",
+      "description": {
+        "1": "Car shipped by an open flat trailer",
+        "2": "Shipped within 24 hours.",
+        "3": "Maximum 48 hours."
+      }
+    },
+    "4": {
+      "header": "VIP",
+      "description": {
+        "1": "Car shipped by an enclosed flat trailer",
+        "2": "Shipped within 24 hours.",
+        "3": "Maximum 48 hours."
+      }
+    }
+  },
+  "sas": {
+    "header": "Special Added Services",
+    "description": "It is a special added service, which is added to regular or special shipping. It is determined according to the customer’s need",
+    "services": {
+      "1": {
+        "header": "Door to Door",
+        "description": "A service provided upon shipping as a complete service, through which the customer’s car can be picked up in front of his house, transported to the branch, and then shipped to the desired destination. Either regular or special shipping, then delivered to the recipient’s home."
+      },
+      "2": {
+        "header": "Door to Branch",
+        "description": "A service provided upon shipping as a partial service, through which the customer’s car can be picked up from his home and delivered to the branch before shipping, after which shipping can be carried out and the vehicle sent to its destination."
+      },
+      "3": {
+        "header": "Branch To Door",
+        "description": "A service provided upon or after shipping as a partial service, through which the customer’s car can be transported after arriving from the branch to deliver it to the recipient’s home."
+      }
     }
   },
   "copyright": "©All rights reserved to SMB"

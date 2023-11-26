@@ -6,10 +6,10 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="bg-contact bg-cover bg-center py-10 flex items-center justify-center my-48"
+      className="bg-contact bg-cover bg-center py-10 flex items-center justify-center my-48 max-w-4xl mx-auto"
     >
       <form
-        className="flex flex-col gap-5 md:w-1/3 w-2/3"
+        className="flex flex-col gap-5 w-2/3"
         action="mailto:info@smb.com.sa"
         method="get"
         enctype="text/plain"

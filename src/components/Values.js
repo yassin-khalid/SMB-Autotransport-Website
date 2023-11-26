@@ -1,5 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import accuracy from "../assets/imgs/accuracy.png";
+import transparency from "../assets/imgs/transparency.png";
+import trust from "../assets/imgs/trust.png";
 
 const Values = () => {
   const {
@@ -18,7 +21,7 @@ const Values = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 md:px-0">
           <div className="md:py-10 py-5 flex flex-col gap-4 items-center shadow-lg rounded-xl dark:bg-[#333]">
-            <img className="w-24" src="trust.png" alt="" />
+            <img className="w-24" src={trust} alt="" />
             <h3
               className={`${
                 resolvedLanguage === "ar" ? "font-arabic" : "font-display"
@@ -35,7 +38,7 @@ const Values = () => {
             </p>
           </div>
           <div className="md:py-10 py-5 flex flex-col gap-4 items-center shadow-lg rounded-xl dark:bg-[#333]">
-            <img className="w-24" src="accuracy.png" alt="" />
+            <img className="w-24" src={accuracy} alt="" />
             <h3
               className={`${
                 resolvedLanguage === "ar" ? "font-arabic" : "font-display"
@@ -52,7 +55,7 @@ const Values = () => {
             </p>
           </div>
           <div className="md:py-10 py-5 flex flex-col gap-4 items-center shadow-lg rounded-xl dark:bg-[#333]">
-            <img className="w-24" src="transparency.png" alt="" />
+            <img className="w-24" src={transparency} alt="" />
             <h3
               className={`${
                 resolvedLanguage === "ar" ? "font-arabic" : "font-display"

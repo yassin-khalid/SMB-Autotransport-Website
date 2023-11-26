@@ -4,7 +4,7 @@ import TopHero from "./TopHero";
 
 const Header = () => {
   return (
-    <header className="max-w-6xl mx-auto max-h-screen">
+    <header className="max-w-6xl mx-auto">
       <MainNav />
       <TopHero />
     </header>

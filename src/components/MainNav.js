@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import logo from "../assets/imgs/bassami-logo-2.png";
+
 const locales = {
   en: {
     title: "EN",
@@ -19,7 +21,7 @@ const MainNav = () => {
         }`}
       >
         <a href="#">
-          <img className="h-20" src="bassami-logo-2.png" alt="Albassami logo" />
+          <img className="h-20" src={logo} alt="Albassami logo" />
         </a>
 
         <div
@@ -35,7 +37,7 @@ const MainNav = () => {
             <li>
               <a
                 className="font-semibold text-lg hover:font-bold transition duration-150 md:hover:text-primary hover:underline hover:underline-offset-8 hover:decoration-4"
-                href="/"
+                href="#"
               >
                 {t("nav.home")}
               </a>

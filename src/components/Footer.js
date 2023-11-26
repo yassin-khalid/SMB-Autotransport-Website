@@ -43,7 +43,7 @@ const Footer = () => {
           </ul>
         </nav>
         <div className="flex gap-8">
-          <a href="https://twitter.com/saudi_SMB">
+          <a href="https://twitter.com/SMBAutotranspor">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
