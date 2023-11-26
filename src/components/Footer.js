@@ -11,7 +11,7 @@ const Footer = () => {
             <li>
               <a
                 className="font-semibold text-lg hover:font-bold transition duration-150 hover:underline hover:underline-offset-8 hover:decoration-4"
-                href="/"
+                href="#"
               >
                 {t("nav.home")}
               </a>
