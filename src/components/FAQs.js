@@ -8,13 +8,14 @@ const FAQs = () => {
   return (
     <section id="FAQs" className="my-48 max-w-6xl mx-auto">
       <h2
-        className={`md:text-4xl text-3xl font-bold text-center text-primary ${
+        className={`md:text-4xl text-3xl font-bold text-center text-primary mb-8 ${
           i18n.resolvedLanguage === "ar" ? "font-arabic" : "font-display"
         }`}
       >
         {t("faq.header")}
       </h2>
-      <p className="mb-8 text-center">
+      {/* This paragraph has been moved to the footer */}
+      {/* <p className="mb-8 text-center">
         {t("faq.call")}
         <a
           className={`text-primary text-sm underline ${
@@ -24,7 +25,7 @@ const FAQs = () => {
         >
           +966920005587
         </a>
-      </p>
+      </p> */}
       <div className="max-w-lg mx-auto flex flex-col gap-4 px-4 md:px-0">
         {Array.from({ length: 6 }, (_, k) => k).map((i) => (
           <div key={i}>

@@ -42,11 +42,7 @@ const Services = () => {
                     alt=""
                   />
                   <span
-                    className={`text-center dark:text-[#B4B4B4] ${
-                      i18n.resolvedLanguage === "ar"
-                        ? "font-arabic"
-                        : "font-display"
-                    }`}
+                    className={`text-center text-lg font-semibold dark:text-[#B4B4B4]`}
                   >
                     {t(`services.${i + 1}.description.${j + 1}`)}
                   </span>

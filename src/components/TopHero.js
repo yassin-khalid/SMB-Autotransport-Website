@@ -10,7 +10,7 @@ const TopHero = () => {
   const { t, i18n } = useTranslation();
   return (
     <section class="bg-white dark:bg-gray-900">
-      <div class="mt-20 py-24 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+      <div class="my-20 py-10 md:py-24 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
         <a
           href="#trace"
           class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
@@ -44,6 +44,7 @@ const TopHero = () => {
         </h1>
         <p
           class={`mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400`}
+          dir={`${i18n.resolvedLanguage === "ar" ? "rtl" : "ltr"}`}
         >
           {t("topHero.subheader")}
         </p>
@@ -117,7 +118,7 @@ const TopHero = () => {
           <span
             class={`font-semibold ${
               i18n.resolvedLanguage === "ar" ? "font-arabic" : "font-display"
-            } text-gray-400 uppercase"`}
+            } text-primary uppercase"`}
           >
             {t("topHero.feature")}
           </span>
@@ -125,28 +126,24 @@ const TopHero = () => {
             <img
               src={alahli}
               alt="NCB Bank Logo"
-              className="h-6 sm:h-8 md:h-11 grayscale dark:grayscale-0"
+              className="h-6 sm:h-8 md:h-11"
             />
             <img
               src={alarabi}
               alt="Alarabi Bank Logo"
-              className="h-6 sm:h-8 md:h-11 grayscale dark:grayscale-0"
+              className="h-6 sm:h-8 md:h-11"
             />
             <img
               src={alrajhi}
               alt="Alrajhi Bank Logo"
-              className="h-6 sm:h-8 md:h-11 grayscale dark:grayscale-0"
+              className="h-6 sm:h-8 md:h-11"
             />
             <img
               src={autoworld}
               alt="Autoworld Logo"
-              className="h-6 sm:h-8 md:h-11 grayscale dark:grayscale-0"
+              className="h-6 sm:h-8 md:h-11"
             />
-            <img
-              src={theeb}
-              alt="Theeb Logo"
-              className="h-6 sm:h-8 md:h-11 grayscale dark:grayscale-0"
-            />
+            <img src={theeb} alt="Theeb Logo" className="h-6 sm:h-8 md:h-11" />
           </div>
         </div>
       </div>

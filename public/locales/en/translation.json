@@ -138,5 +138,386 @@
       }
     }
   },
+  "location": {
+    "header": "Our Branches",
+    "area": "Area: ",
+    "city": "City: ",
+    "branch": " Branch: ",
+    "WH": "Working Hours: ",
+    "FWH": "Friday Working Hours: ",
+    "service": "Service: ",
+    "link": "Click to visit the location",
+    "locations": [
+      {
+        "position": { "lat": 24.80550532686346, "lng": 46.85418753558222 },
+        "area": "Middle",
+        "city": "Riyadh",
+        "branch": "Janadriyah",
+        "WH": "From 8am to 12am",
+        "FWH": "From 2pm",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/R35ffkHSHifoRzmn7"
+      },
+      {
+        "position": { "lat": 24.547328762664133, "lng": 46.67643975092446 },
+        "area": "Middle",
+        "city": "Riyadh",
+        "branch": "Alshifa",
+        "WH": "From 8am to 12am",
+        "FWH": "From 2pm",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/JWmWjDQhWYLPwQi19"
+      },
+      {
+        "position": { "lat": 24.73587421645495, "lng": 46.794718377911096 },
+        "area": "Middle",
+        "city": "Riyadh",
+        "branch": "Khurais 1",
+        "WH": "From 8am to 12am",
+        "FWH": "From 2pm",
+        "service": "Picks-up cars",
+        "link": "https://goo.gl/maps/vmowKJpNPipZYaSk7"
+      },
+      {
+        "position": { "lat": 24.181163067221878, "lng": 47.35820663963455 },
+        "area": "Middle",
+        "city": "Riyadh",
+        "branch": "Kharj",
+        "WH": "From 8am to 12am",
+        "FWH": "From 3pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/VGJgTjS7kxtwy6Ac7"
+      },
+      {
+        "position": { "lat": 26.41260740032943, "lng": 43.87319053558222 },
+        "area": "Middle",
+        "city": "Al-Qasseem",
+        "branch": "Buraidah",
+        "WH": "From 8am to 12am",
+        "FWH": "From 3pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/X9JaFenX8HmXTvQAA"
+      },
+      {
+        "position": { "lat": 27.485966343923327, "lng": 41.75190927976003 },
+        "area": "Middle",
+        "city": "Hayil",
+        "branch": "Hayil",
+        "WH": "From 8am to 11pm",
+        "FWH": "From 3pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/3McSgootoKfrXr8Z6"
+      },
+      {
+        "position": { "lat": 20.4377830964017, "lng": 44.87307469325334 },
+        "area": "Middle",
+        "city": "Wadi Aldawasir",
+        "branch": "Wadi Aldawasir",
+        "WH": "From 8am to 12am",
+        "FWH": "From 3pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/BN2PqCnHxyAV9Udn8"
+      },
+      {
+        "position": { "lat": 21.483187877419272, "lng": 40.486894722088905 },
+        "area": "Western",
+        "city": "Tayif",
+        "branch": "Alhouya",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/HBFhDfCEDbTbHiX4A"
+      },
+      {
+        "position": { "lat": 21.31055831212851, "lng": 40.432608441483474 },
+        "area": "Western",
+        "city": "Tayif",
+        "branch": "Faysaliya",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up cars",
+        "link": "https://goo.gl/maps/U49SUTwe8KsVkDWt9"
+      },
+      {
+        "position": { "lat": 24.424318427084433, "lng": 39.51446170674666 },
+        "area": "Western",
+        "city": "Madina",
+        "branch": "Madina",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/iJJTWqF9HnPsb8t46"
+      },
+      {
+        "position": { "lat": 21.4454028139587, "lng": 39.25790816441777 },
+        "area": "Western",
+        "city": "Jeddah",
+        "branch": "South Jeddah",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up cars",
+        "link": "https://goo.gl/maps/sNDwKgRRfcyTrNpL9"
+      },
+      {
+        "position": { "lat": 21.41755802893323, "lng": 39.25388353558223 },
+        "area": "Western",
+        "city": "Jeddah",
+        "branch": "Alsnabil",
+        "WH": "From 8am to 12am",
+        "FWH": "From 2pm",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/XQqVbnoZjSGyDujj6"
+      },
+      {
+        "position": { "lat": 21.448232509987015, "lng": 39.26353316441777 },
+        "area": "Western",
+        "city": "Jeddah",
+        "branch": "Mecca Street",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up cars",
+        "link": "https://goo.gl/maps/YD4Me7LVwSu6HM1V7"
+      },
+      {
+        "position": { "lat": 21.633817875315767, "lng": 39.161332906746665 },
+        "area": "Western",
+        "city": "Jeddah",
+        "branch": "North Jeddah",
+        "WH": "From 8am to 12am",
+        "FWH": "From 2pm to 2am",
+        "service": "Picks-up cars",
+        "link": "https://goo.gl/maps/ovhkxDY3FRKANRKn6"
+      },
+      {
+        "position": { "lat": 21.669579003374484, "lng": 39.12389426441778 },
+        "area": "Western",
+        "city": "Jeddah",
+        "branch": "Basateen",
+        "WH": "From 8am to 12am",
+        "service": "Picks-up cars",
+        "link": "https://goo.gl/maps/vq75ZnzJdLtgKhRa6"
+      },
+      {
+        "position": { "lat": 24.106970493115394, "lng": 38.09231253324237 },
+        "area": "Western",
+        "city": "Yanbou",
+        "branch": "Yanbou",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/tz7PKTjMw3Z2m29G7"
+      },
+      {
+        "position": { "lat": 28.40738632063071, "lng": 36.550372064417786 },
+        "area": "Western",
+        "city": "Tabouk",
+        "branch": "Tabouk",
+        "WH": "From 7am to 12am",
+        "FWH": "From 2pm",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/tLi6KUfat6f4vysZ7"
+      },
+      {
+        "position": { "lat": 16.900559976681553, "lng": 42.60535262208891 },
+        "area": "Western",
+        "city": "Jezan",
+        "branch": "Jezan",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/TcPvhhqGgE1SoPHW7"
+      },
+      {
+        "position": { "lat": 17.128877867907576, "lng": 42.650924735582215 },
+        "area": "Western",
+        "city": "Sabya",
+        "branch": "Sabya",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/uN6ZNbjN7pR6bZQK6"
+      },
+      {
+        "position": { "lat": 25.427460745969995, "lng": 49.56534029325334 },
+        "area": "Eastern",
+        "city": "Ehsa'",
+        "branch": "Ehsa'",
+        "WH": "From 8am to 11pm, On Saturday From 8am to 12pm and from 4pm to 10pm",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/eAr43JFZVcW6hidU7"
+      },
+      {
+        "position": { "lat": 26.999851369415953, "lng": 49.60540202614123 },
+        "area": "Eastern",
+        "city": "Jubail",
+        "branch": "Jubail",
+        "WH": "From 8am to 10pm",
+        "FWH": "From 4pm to 10pm",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/QudS9DLUtP4tEyAT8"
+      },
+      {
+        "position": { "lat": 26.216232715831854, "lng": 50.18696240674666 },
+        "area": "Eastern",
+        "city": "Khobar",
+        "branch": "Khobar",
+        "WH": "From 8am to 12am",
+        "FWH": "From 2pm",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/7pDtyPv6dznfpA7r9"
+      },
+      {
+        "position": { "lat": 28.52328120622343, "lng": 48.4806933021851 },
+        "area": "Eastern",
+        "city": "Khafji",
+        "branch": "Khafji",
+        "WH": "From 8am to 10pm",
+        "FWH": "From 4pm to 10pm",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/Bk6sPswQ4ez5e5uU9"
+      },
+      {
+        "position": { "lat": 26.39987176436842, "lng": 50.00651080859558 },
+        "area": "Eastern",
+        "city": "Dammam",
+        "branch": "Dammam",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/pxMnvKRdTKbakGNs8"
+      },
+      {
+        "position": { "lat": 28.36556999322186, "lng": 45.961794822088905 },
+        "area": "Eastern",
+        "city": "Hafr Albatin",
+        "branch": "Hafr Albatin",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/1KTYjAechJcdUR5y6"
+      },
+      {
+        "position": { "lat": 31.474088932396, "lng": 37.14576003743114 },
+        "area": "Northern",
+        "city": "Qurayyat",
+        "branch": "Qurayyat",
+        "WH": "24 Hours",
+        "FWH": "From 4am to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/1ArUgL93a3ox5vWT6"
+      },
+      {
+        "position": { "lat": 29.922517028509525, "lng": 40.22604965092446 },
+        "area": "Northern",
+        "city": "Skaka",
+        "branch": "Skaka",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/kxaachkHjurDMvQu6"
+      },
+      {
+        "position": { "lat": 30.979333268965124, "lng": 40.96694465092446 },
+        "area": "Northern",
+        "city": "Ar'ar",
+        "branch": "Ar'ar",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/8s8R3VeJuVRBrewQ7"
+      },
+      {
+        "position": { "lat": 18.257298791754206, "lng": 42.75046083558222 },
+        "area": "Southern",
+        "city": "Abha",
+        "branch": "Khamis Mushayt",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/Rir9tGw6suweRBNaA"
+      },
+      {
+        "position": { "lat": 18.255182771797973, "lng": 42.6295800220889 },
+        "area": "Southern",
+        "city": "Abha",
+        "branch": "Abha Bridge",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up cars",
+        "link": "https://goo.gl/maps/95PMa6uDLjKqf9xe8"
+      },
+      {
+        "position": { "lat": 18.23735899322033, "lng": 42.64493842208891 },
+        "area": "Southern",
+        "city": "Abha",
+        "branch": "Abha Airport",
+        "WH": "From 7am to 12am",
+        "FWH": "From 8am to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/KuGiB7PFaRNryc728"
+      },
+      {
+        "position": { "lat": 18.476736403826635, "lng": 42.06491133558222 },
+        "area": "Southern",
+        "city": "Abha",
+        "branch": "Muhayil Aseer",
+        "WH": "From 8am to 1pm and from 4pm to 11pm",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://www.google.com/maps/place/18%C2%B028'35.5%22N+42%C2%B003'53.7%22E/@18.4765278,42.0649167,17z/data=!3m1!4b1!4m4!3m3!8m2!3d18.4765278!4d42.0649167?hl=en&entry=ttu"
+      },
+      {
+        "position": { "lat": 20.237774063243375, "lng": 41.63027458196343 },
+        "area": "Southern",
+        "city": "Baha",
+        "branch": "Baha",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/Yh6vuEiLzfT9N5JD8"
+      },
+      {
+        "position": { "lat": 19.150879493818586, "lng": 42.11151309325334 },
+        "area": "Southern",
+        "city": "An-namss",
+        "branch": "An-namss",
+        "WH": "From 8am to 12am",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/2zwyuSCYJRfAUKGV9"
+      },
+      {
+        "position": { "lat": 19.932468724135976, "lng": 42.606169235582215 },
+        "area": "Southern",
+        "city": "Bisha",
+        "branch": "Bisha",
+        "WH": "From 8am to 11pm",
+        "FWH": "From 4pm to 11pm",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/UgVGrEzmStrFzfW97"
+      },
+      {
+        "position": { "lat": 17.584050309383326, "lng": 44.34865499325334 },
+        "area": "Southern",
+        "city": "Najran",
+        "branch": "Najran 2",
+        "WH": "From 8am to 9pm",
+        "FWH": "From 4pm to 9pm",
+        "service": "Picks-up and delivers cars",
+        "link": "https://goo.gl/maps/fdSYFVCqKuX6sp78A"
+      },
+      {
+        "position": { "lat": 17.577557860364298, "lng": 44.33853643558222 },
+        "area": "Southern",
+        "city": "Najran",
+        "branch": "Najran 1",
+        "WH": "From 8am to 12pm and from 4pm to 8pm",
+        "FWH": "From 4pm to 12am",
+        "service": "Picks-up cars",
+        "link": "https://goo.gl/maps/PjmRyEvPAwTEkUVPA"
+      }
+    ]
+  },
   "copyright": "©All rights reserved to SMB"
 }

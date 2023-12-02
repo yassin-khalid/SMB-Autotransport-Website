@@ -9,6 +9,7 @@ import Hero from "./components/Hero";
 import Vision from "./components/Vision";
 import Services from "./components/Services";
 import SAS from "./components/SAS";
+import Locations from "./components/Locations";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Services />
       <SAS />
       <FAQs />
+      <Locations />
       <Footer />
     </div>
   );
