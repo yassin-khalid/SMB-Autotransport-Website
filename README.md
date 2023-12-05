@@ -14,7 +14,7 @@ it provides a range of logistics services including trucking services, warehousi
 ### Can I track my order?
 
 Now you can track your orders by entering your tracking code, and see its last status.
-See the section about [Track & Trace](https://smb.sa/#trace).
+See the section about [Track & Trace](https://smb.com.sa/#trace).
 
 
 ### How to contact with SMB team?
