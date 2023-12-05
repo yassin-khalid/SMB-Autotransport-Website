@@ -45,6 +45,7 @@ const Locations = () => {
           longitude: 46.67427494656205,
           zoom: 5,
         }}
+        minZoom={5}
         mapStyle={process.env.REACT_APP_MAPBOX_MAP_STYLE}
       >
         {locations.map(
