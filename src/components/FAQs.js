@@ -14,20 +14,8 @@ const FAQs = () => {
       >
         {t("faq.header")}
       </h2>
-      {/* This paragraph has been moved to the footer */}
-      {/* <p className="mb-8 text-center">
-        {t("faq.call")}
-        <a
-          className={`text-primary text-sm underline ${
-            i18n.resolvedLanguage === "ar" ? "font-arabic" : "font-display"
-          }`}
-          href="tel:+966-920-005-587"
-        >
-          +966920005587
-        </a>
-      </p> */}
       <div className="max-w-lg mx-auto flex flex-col gap-4 px-4 md:px-0">
-        {Array.from({ length: 6 }, (_, k) => k).map((i) => (
+        {Array.from({ length: 5 }, (_, k) => k).map((i) => (
           <div key={i}>
             <button
               className={`ring-2 ${
