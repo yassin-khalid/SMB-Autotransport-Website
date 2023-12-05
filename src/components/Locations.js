@@ -63,7 +63,7 @@ const Locations = () => {
           ) => (
             <div key={i}>
               <Marker
-                color="#035AA6"
+                color="#F21D44"
                 latitude={lat}
                 longitude={lng}
                 onClick={(e) => {
