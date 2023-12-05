@@ -58,18 +58,6 @@ const FAQs = () => {
               } ${i18n.resolvedLanguage === "ar" ? "text-lg text-right" : ""}`}
             >
               {t(`faq.answers.${i + 1}`)}
-              {i === 0 && (
-                <>
-                  {" "}
-                  <a
-                    className="text-primary underline"
-                    download
-                    href={branchList}
-                  >
-                    ({t("faq.attached")})
-                  </a>
-                </>
-              )}
             </p>
           </div>
         ))}
