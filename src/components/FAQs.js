@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import branchList from "../assets/branch-list.xlsx";
 
 const FAQs = () => {
   const [opens, setOpens] = useState([]);
