@@ -69,20 +69,18 @@
     "call": "For more details please call ",
     "attached": "Attached list",
     "questions": {
-      "1": "What are the branches that ship to and from? / Branch locations / Branch working hours?",
-      "2": "Is there international shipping?",
-      "3": "What type of vehicles can be shipped?",
-      "4": "What documents are required when shipping?",
-      "5": "Is there a procedure before the car is delivered for shipping?",
-      "6": "What is the procedure to change the recipient?"
+      "1": "Is there international shipping?",
+      "2": "What type of vehicles can be shipped?",
+      "3": "What documents are required when shipping?",
+      "4": "Is there a procedure before the car is delivered for shipping?",
+      "5": "What is the procedure to change the recipient?"
     },
     "answers": {
-      "1": "A list of the branches’ names, their services, and exact working hours will be added, in addition to the branch locations",
-      "2": "Yes, we have international shipping to the Emirates - Bahrain - Qatar - and Jordan.",
-      "3": "All types of vehicles can be shipped.",
-      "4": "Identity and form, and the shipper or recipient must be the owner of the car.",
-      "5": "Ensure that no private property or valuable items are left inside the car. And hand over the car key to the responsible employee.",
-      "6": "With an official power of attorney directly from the owner to receive the car."
+      "1": "Yes, we have international shipping to the Emirates - Bahrain - Qatar - and Jordan.",
+      "2": "All types of vehicles can be shipped.",
+      "3": "Identity and form, and the shipper or recipient must be the owner of the car.",
+      "4": "Ensure that no private property or valuable items are left inside the car. And hand over the car key to the responsible employee.",
+      "5": "With an official power of attorney directly from the owner to receive the car."
     }
   },
   "services": {
